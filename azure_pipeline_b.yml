@@ -7,8 +7,8 @@ pool:
 
 resources:
   pipelines:
-  - pipeline: pipeline (B)
-    source: pipeline (A)
+  - pipeline: pipeline-B
+    source: pipeline-A
     trigger: true # Run pipeline (B) when any run of pipeline (A) completes
     branch: main
 
