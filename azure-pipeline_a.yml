@@ -1,2 +1,6 @@
+pool:
+  name: Default
+  vmImage: windows-latest
+  
 steps:
 - bash: echo "pipeline (A) runs first"
