@@ -3,4 +3,5 @@ pool:
   vmImage: windows-latest
   
 steps:
-- bash: echo "pipeline (A) runs first"
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
