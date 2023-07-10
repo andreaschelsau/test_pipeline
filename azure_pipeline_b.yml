@@ -1,6 +1,9 @@
 trigger: none
 pr: none
 
+pool:
+  name: Default
+  vmImage: windows-latest
 
 resources:
   pipelines:
