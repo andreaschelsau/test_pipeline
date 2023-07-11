@@ -15,4 +15,4 @@ resources:
 steps:
   - script: |
       echo $(SUPER_SECRET)
-      echo Hello, world!
+      echo Hello, world!?
