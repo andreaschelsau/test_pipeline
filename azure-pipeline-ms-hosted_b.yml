@@ -3,8 +3,14 @@ pr: none
 
 pool:
   vmImage: windows-latest
-
-
+  
+resources:
+  pipelines:
+  - pipeline: achelsau-pipeline-B
+    source: achelsau-pipeline-A
+    trigger: true # Run pipeline (B) when any run of pipeline (A) completes
+    branch: main
+    
 steps:
   - script: |
       echo $(SUPER_SECRET)
