@@ -1,0 +1,15 @@
+resources:
+  repositories:
+  - repository: definitions
+    type: github
+    name: 'andreaschelsau/definitions'
+    endpoint: definitions
+
+trigger: none
+
+pool:
+  vmImage: windows-latest
+  
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
