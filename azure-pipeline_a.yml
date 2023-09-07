@@ -3,7 +3,7 @@ pool:
   vmImage: windows-latest
   
 steps:
-- script: echo Hello, world!
+- script: echo Hello, world1!
     echo $(var_2)
   displayName: 'Run a one-line script'
 
